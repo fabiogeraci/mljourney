@@ -38,8 +38,7 @@ How:
 
 ### Yolov5n Pruned+Quant
 
-- Average inference time per frame: 55.62012081549351 ms
+- Average inference time per frame: 55.62 ms
 - Average FPS: 17.97
 
-
-![Screenshotfrom20220916223617.png](assets/Screenshot from 2022-09-16 22-36-17.png?t=1663364377805)
+<img src = "assets/mAP_0.5_0.95.png">

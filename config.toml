@@ -49,6 +49,7 @@ url = "about/"
 [[languages.en.menu.main]]
 name = "Blog"
 weight = 2
+staticDir = 'assets/'
 url = "posts/"
 
 [[languages.en.menu.main]]
