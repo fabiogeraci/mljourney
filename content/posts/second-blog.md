@@ -23,12 +23,12 @@ How:
 - In this post, I show you how you can supercharge your YOLOv5 inference performance running on CPUs using free and open-source tools by Neural Magic.
 
 ### Yolov5s
-- Average inference time per frame: 148.58768514053972 ms
-- Average FPS: 6.730032835858255
+- Average inference time per frame: 148.58 ms
+- Average FPS: 6.73
 
 ### Yolov5s Pruned+Quant
-- Average inference time per frame: 114.55396762546629 ms
-- Average FPS: 8.729509948267316
+- Average inference time per frame: 114.55 ms
+- Average FPS: 8.72
 
 ### Yolov5n Pruned+Quant 
 - Average inference time per frame: 55.62012081549351 ms
