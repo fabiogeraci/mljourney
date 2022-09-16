@@ -27,8 +27,8 @@ How:
 - Average FPS: 6.730032835858255
 
 # Yolov5s Pruned+Quant
-- Average inference time per frame: 
-- Average FPS:
+- Average inference time per frame: 114.55396762546629 ms
+- Average FPS: 8.729509948267316
 
 # Yolov5n Pruned+Quant 
 - Average inference time per frame: 55.62012081549351 ms
