@@ -13,8 +13,8 @@ enableEmoji = true
 author = "Fabio Geraci"
 # license = '<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA-4.0</a>'
 description = "Fabio Geraci's personal website"
-keywords = "blog,developer,personal"
-info = ["Full Stack DevOps", "Magician"]
+keywords = "blog, developer, personal"
+info = ['ML/CV Deep Learning Developer' , 'Edge/Cloud Deep Learning Deployment' , 'MLOps Developer Advocate']
 avatarURL = "images/avatar.jpg"
 #gravatar = "john.doe@example.com"
 dateFormat = "January 2, 2006"
