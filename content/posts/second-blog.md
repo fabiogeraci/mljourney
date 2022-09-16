@@ -41,11 +41,26 @@ How:
 - Average inference time per frame: 55.62 ms
 - Average FPS: 17.97
 
-
-| mAP_0.5_0.95                          | recall | mAP_0.5 | precision |
-| ------------------------------------- | ------ | ------- | --------- |
-| ![my](/posts/assets/mAP_0.5_0.95.png) | a      | a       |           |
-
-![my](assets/mAP_0.5_0.95.png "mAP_0.5_0.95")
-
 {{< figure src="/posts/assets/mAP_0.5_0.95.png" title="mAP_0.5_0.95" >}}
+
+<style>
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+</style>
+<table border: 1px solid black;>
+  <tr>
+    <th>mAP_0.5_0.95</th>
+    <th>recall</th>
+    <th>mAP_0.5</th>
+    <th>precision</th>
+  </tr>
+  <tr>
+    <td>{{< figure src="/posts/assets/mAP_0.5_0.95.png">}}</td>
+    <td>{{< figure src="/posts/assets/mAP_0.5_0.95.png">}}</td>
+    <td>{{< figure src="/posts/assets/mAP_0.5_0.95.png">}}</td>
+    <td>{{< figure src="/posts/assets/mAP_0.5_0.95.png">}}</td>
+  </tr>
+</table>
+
