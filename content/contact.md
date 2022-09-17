@@ -3,7 +3,7 @@ title: "Contact"
 date: 2022-09-16T22:03:19+01:00
 ---
 
-You can contact us here!
+You can contact me on [LinkedIn](https://www.linkedin.com/in/fabiogeraci/) or [Twitter](https://twitter.com/FGeraci73/) or via email below!
 
 <form method="post" action="https://forms.un-static.com/forms/977a440179386df740302e37894640b40e77705e">
   <div class="form-group row">
