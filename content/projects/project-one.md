@@ -166,3 +166,84 @@ Check out the [WandB](https://wandb.ai/fabiogeraci/flower_app/reports/Weave-Pred
 
 I would say pretty impressive
 
+## 🔎 Reality Check
+
+As to stick with good machine learning practise, I will post results only on the test/held-out set.
+
+I compiled the test set into a dataloader:
+
+{{< details >}}
+{{< highlight bash >}}
+from fastai.data.core import test_dl
+test_dls = learn.dls.test_dl(test_df, with_labels=True)
+preds = learn.get_preds(dl=test_dls)
+{{< / highlight >}}
+{{< /details >}}
+
+Now to calculate the accuracy
+
+{{< details >}}
+{{< highlight bash >}}
+y_test = torch.from_numpy(test_df.label.values)
+acc = accuracy(preds[0], y_test)
+print(f'The accuracy is {acc:0.3f}%.')
+{{< / highlight >}}
+{{< /details >}}
+
+The accuracy is 0.997%.
+
+### Plotting ROC Curve
+{{< details >}}
+{{< highlight bash >}}
+from sklearn.metrics import roc_curve, auc
+probs = np.exp(preds[0][:,1])
+fpr, tpr, thresholds = roc_curve(y_test, probs, pos_label=1)
+roc_auc = auc(fpr, tpr)
+print(f'ROC area is {roc_auc:0.3f}')
+{{< / highlight >}}
+{{< /details >}}
+
+ROC area is 1.000 . Let's plot the ROC
+
+{{< details >}}
+{{< highlight bash >}}
+plt.figure()
+plt.plot(fpr, tpr, color='darkorange', label='ROC curve (area = %0.4f)' % roc_auc)
+plt.plot([0, 1], [0, 1], color='navy', linestyle='--')
+plt.xlim([-0.01, 1.0])
+plt.ylim([0.0, 1.01])
+plt.xlabel('False Positive Rate')
+plt.ylabel('True Positive Rate')
+plt.title('Receiver operating characteristic')
+plt.legend(loc="lower right")
+{{< / highlight >}}
+{{< /details >}}
+
+{{< figure src="/projects/project-one_images/roc_curve.png">}}
+
+### Plotting Confusion Matrix
+{{< details >}}
+{{< highlight bash >}}
+interp = ClassificationInterpretation.from_learner(learn, dl=test_dls)
+interp.plot_confusion_matrix(figsize=(6,6))
+{{< / highlight >}}
+{{< /details >}}
+
+{{< figure src="/projects/project-one_images/cm.png">}}
+
+Showing the Classification Report
+{{< figure src="/projects/project-one_images/class_report.png">}}
+
+### Plotting the Top Losses
+{{< figure src="/projects/project-one_images/top_losses.png">}}
+
+## 🧭 Conclusion
+I believe this a very good starting point for further discussion, as they if it is too good it is not real.
+
+## 🙏 Comments & Feedback
+I hope you’ve learned a thing or two from this blog post. If you have any questions, comments, or feedback, please leave them on the following  [LinkedIn](https://www.linkedin.com/in/fabiogeraci/) or [Twitter](https://twitter.com/FGeraci73/).
+
+## Follow me 👇
+
+{{< button href="https://www.linkedin.com/in/fabiogeraci/" >}}LinkedIn{{< /button >}}
+{{< button href="https://twitter.com/FGeraci73/" >}}Twitter{{< /button >}}
