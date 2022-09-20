@@ -4,9 +4,9 @@ theme = "hugo-coder"
 languageCode = "en"
 defaultContentLanguage = "en"
 paginate = 20
-pygmentsStyle = "bw"
 pygmentsCodeFences = true
 pygmentsCodeFencesGuessSyntax = true
+pygmentsUseClasses = false
 enableEmoji = true
 
 colorScheme = "dark"
@@ -16,6 +16,18 @@ canonifyURLs = true
   [markup.goldmark]
     [markup.goldmark.renderer]
       unsafe = true
+  [markup.highlight]
+    anchorLineNos = false
+    codeFences = true
+    guessSyntax = false
+    hl_Lines = ""
+    lineAnchors = ""
+    lineNoStart = 1
+    lineNos = false
+    lineNumbersInTable = true
+    noClasses = true
+    style = "monokai"
+    tabWidth = 4
 
 [params]
 author = "Fabio Geraci"
