@@ -28,6 +28,12 @@ avatarURL = "images/image.png"
 dateFormat = "January 2, 2006"
 since = 2019
 
+[[params.shareButtons]]
+  networks = ["twitter", "linkedin"]
+  size = "small"
+  buttonMargin = "0.2em"
+  icon = "solid"
+
 [[params.social]]
 name = "Github"
 icon = "fa fa-2x fa-github"
@@ -65,3 +71,5 @@ url = "projects/"
 name = "Contact me"
 weight = 5
 url = "contact/"
+
+
