@@ -40,6 +40,9 @@ table, tr, th, td {
 
 ## Table Resume Prediction Speed
 
+The table below clearly shows that the Yolov5n Pruned+Quant average FPS is 2.5 times faster than the standard YOLOv5s, and
+roughly double respect Yolov5s Pruned+Quant, almost equaling the performance of its gpu counterpart.
+
 <table border>
     <tr>
         <th>Model</th>
@@ -67,6 +70,13 @@ table, tr, th, td {
         <th>8.72</th>
         <th>NA</th>
         <th>NA</th>
+    </tr>
+    <tr>
+        <th>Yolov5n</th>
+        <th>--</th>
+        <th>--</th>
+        <th>--</th>
+        <th>--</th>
     </tr>
     <tr>
         <th>Yolov5n Pruned+Quant</th>

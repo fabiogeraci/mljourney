@@ -1,7 +1,10 @@
 ---
 title: "The Garden Flower Challenge"
 date: 2022-08-28
+authors: ['Fabio Geraci']
+tags: ['Computer Vision', 'FastAI', 'Keggle', 'timm', 'Weight & Bias', 'torch', 'classification', 'convnext']
 ---
+
 {{< toc >}}
 
 ## 🔥 Motivation

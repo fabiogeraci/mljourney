@@ -22,3 +22,6 @@ Tech stack:
 <p>🟩 DL framework: Tensorflow, PyTorch, Keras, Fastai, IceVision</p>
 <p>🟩 DL experiment: Weights & Biases, CometML, Optuna.</p>
 <p>🟩 DL deployment: OpenVINO, TensorRT, ONNX, TFLite, Hugging Face Hub, DeepSparse.</p>
+
+Besides my technical interests, I generally have a growth mindset and am interested in staying physically and mentally fit. 
+When family affairs allow me I am keen cyclist, skier, kitesurfer and skidiver as well as running and swimming.

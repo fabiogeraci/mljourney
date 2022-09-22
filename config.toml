@@ -29,6 +29,12 @@ canonifyURLs = true
     style = "monokai"
     tabWidth = 4
 
+[taxonomies]
+category = "categories"
+series = "series"
+tag = "tags"
+author = "authors"
+
 [params]
 author = "Fabio Geraci"
 # license = '<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA-4.0</a>'
@@ -70,7 +76,7 @@ url = "posts/"
 
 [[languages.en.menu.main]]
 name = "Projects"
-weight = 3
+weight = 2
 url = "projects/"
 
 [[languages.en.menu.main]]
