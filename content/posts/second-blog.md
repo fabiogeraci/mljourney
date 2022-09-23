@@ -107,7 +107,7 @@ providing similar metrics performances, as shown in the following illustrations
 ## Test Set F1 Score
 
 <a>
-  {{< figure src="/posts/assets/F1_curve.png" width="400" height="400" title="Prediction Video Sample">}}
+  {{< figure src="/posts/assets/F1_curve.png" width="600" height="300" title="Prediction Video Sample">}}
 </a>
 
 ## Sample of video annotation
