@@ -104,7 +104,17 @@ providing similar metrics performances, as shown in the following illustrations
   {{< figure src="/posts/assets/precision.png" width="600" height="300" title="precision">}}
 </a>
 
+## Test Set F1 Score
 
+<a>
+  {{< figure src="/posts/assets/F1_score.png" width="400" height="400" title="Prediction Video Sample">}}
+</a>
+
+## Sample of video annotation
+
+<a>
+  {{< figure src="/posts/assets/video_sample.png" width="400" height="400" title="Prediction Video Sample">}}
+</a>
 
 
 ## 🙏 Comments & Feedback
