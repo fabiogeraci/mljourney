@@ -40,8 +40,7 @@ table, tr, th, td {
 
 ## Table Resume Prediction Speed
 
-The table below clearly shows that the Yolov5n Pruned+Quant average FPS is 2.5 times faster than the standard YOLOv5s, and
-roughly double respect Yolov5s Pruned+Quant, almost equaling the performance of its gpu counterpart.
+The table below resumes the findings, and compares tow YOLOv5 networks (s and n) with and without pruning+quantization.
 
 <table border>
     <tr>
@@ -73,10 +72,10 @@ roughly double respect Yolov5s Pruned+Quant, almost equaling the performance of 
     </tr>
     <tr>
         <th>Yolov5n</th>
-        <th>--</th>
-        <th>--</th>
-        <th>--</th>
-        <th>--</th>
+        <th>182.67</th>
+        <th>5.47</th>
+        <th>29.24</th>
+        <th>34.18</th>
     </tr>
     <tr>
         <th>Yolov5n Pruned+Quant</th>
@@ -87,26 +86,15 @@ roughly double respect Yolov5s Pruned+Quant, almost equaling the performance of 
     </tr>
 </table>
 
-## Table Resume Metrics
+The table clearly shows that the Yolov5n Pruned+Quant average FPS is 2.5 times faster than the standard YOLOv5s,
+providing similar metrics performances, as shown in the following illustrations
 
-<table border>
-    <tr>
-        <th>mAP_0.5_0.95</th>
-        <th>recall</th>
-    </tr>
-    <tr>
-        <th>{{< figure src="/posts/assets/mAP_0.5_0.95.png" width="400" height="400">}}</th>
-        <th>{{< figure src="/posts/assets/recall.png" width="400" height="400">}}</th>
-    </tr>
-    <tr>
-        <th>mAP_0.5</th>
-        <th>precision</th>
-    </tr>
-    <tr>
-        <th>{{< figure src="/posts/assets/mAP_0.5.png" width="400" height="400">}}</th>
-        <th>{{< figure src="/posts/assets/precision.png" width="400" height="400">}}</th>
-    </tr>
-</table>
+## Metrics
+
+{{< figure src="/posts/assets/mAP_0.5_0.95.png" width="600" height="600" title="mAP_0.5_0.95">}}
+{{< figure src="/posts/assets/mAP_0.5.png" width="600" height="600" title="mAP_0.5">}}
+{{< figure src="/posts/assets/recall.png" width="600" height="600" title="recall">}}
+{{< figure src="/posts/assets/precision.png" width="600" height="600" title="precision">}}
 
 ## 🙏 Comments & Feedback
 I hope you’ve learned a thing or two from this blog post. If you have any questions, comments, or feedback, please leave them on the following  [LinkedIn](https://www.linkedin.com/in/fabiogeraci/) or [Twitter](https://twitter.com/FGeraci73/).
