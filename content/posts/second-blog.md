@@ -91,10 +91,21 @@ providing similar metrics performances, as shown in the following illustrations
 
 ## Metrics
 
-{{< figure src="/posts/assets/mAP_0.5_0.95.png" width="600" height="600" title="mAP_0.5_0.95">}}
-{{< figure src="/posts/assets/mAP_0.5.png" width="600" height="600" title="mAP_0.5">}}
-{{< figure src="/posts/assets/recall.png" width="600" height="600" title="recall">}}
-{{< figure src="/posts/assets/precision.png" width="600" height="600" title="precision">}}
+<a href="https://wandb.ai/mentorship/YOLOv5/reports/metrics-mAP_0-5-0-95-22-09-23-11-23-19---VmlldzoyNjgzNDY4?accessToken=ogz720cdvdqsxm57bqtxf4c3fhlx4rjwi9rc82wvlgza49lpgg80hmvgsx4o4gah">
+    {{< figure src="/posts/assets/mAP_0.5_0.95.png" width="600" height="300" title="mAP_0.5_0.95" >}}
+</a>
+<a href="https://wandb.ai/mentorship/YOLOv5/reports/metrics-mAP_0-5-22-09-23-11-47-41---VmlldzoyNjgzNTkz?accessToken=30gldan2v7twoaroorf408mu6ps1p972z3hg3cwkhtetpeklllqjzjr5tw2xab0m">
+    {{< figure src="/posts/assets/mAP_0.5.png" width="600" height="300" title="mAP_0.5" >}}
+</a>
+<a href="https://wandb.ai/mentorship/YOLOv5/reports/metrics-recall-22-09-23-11-47-13---VmlldzoyNjgzNTkw?accessToken=1dxd27obwdhz5ivotnh6ih37dp8lbc3retlzwz3cf1m6gxlkr9n83m11la1657uh">
+  {{< figure src="/posts/assets/recall.png" width="600" height="300" title="recall">}}
+</a>
+<a href="https://wandb.ai/mentorship/YOLOv5/reports/metrics-precision-22-09-23-11-48-11---VmlldzoyNjgzNTk1?accessToken=618lxwy1mzpoeumtrco05tq3pvo4d5kcw01v5177ugzfttmvkqwi9pjycden9uu4">
+  {{< figure src="/posts/assets/precision.png" width="600" height="300" title="precision">}}
+</a>
+
+
+
 
 ## 🙏 Comments & Feedback
 I hope you’ve learned a thing or two from this blog post. If you have any questions, comments, or feedback, please leave them on the following  [LinkedIn](https://www.linkedin.com/in/fabiogeraci/) or [Twitter](https://twitter.com/FGeraci73/).
