@@ -1,9 +1,11 @@
 baseURL = "https://fabiogeraci.github.io/mljourney/"
 title='ML Journey'
 theme = "hugo-coder"
+
 languageCode = "en"
 defaultContentLanguage = "en"
 paginate = 20
+pygmentsStyle = "bw"
 pygmentsCodeFences = true
 pygmentsCodeFencesGuessSyntax = true
 pygmentsUseClasses = false
