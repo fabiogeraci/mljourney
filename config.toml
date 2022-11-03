@@ -11,7 +11,7 @@ pygmentsCodeFencesGuessSyntax = true
 pygmentsUseClasses = false
 enableEmoji = true
 
-googleAnalytics = "G-LEPGC6QVMG"
+googleAnalytics = "${{secrets.GOOGLEANALYTICS_ID}}" #"G-LEPGC6QVMG"
 
 colorScheme = "dark"
 canonifyURLs = true
